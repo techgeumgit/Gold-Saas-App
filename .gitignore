@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production
+dist
+build
+out
+
+# OS
+.DS_Store
+*.pem
+
+# Prisma
+/server/generated/prisma
